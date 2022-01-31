@@ -14,6 +14,8 @@ int main()
     delete pData;
     delete pnData;
 
+    //배열 형태로 동적 생성
+    
     int* arr = new int[5];
 
     for (int i = 0; i < 5; i++) {
